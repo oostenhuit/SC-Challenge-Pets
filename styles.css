@@ -22,6 +22,12 @@ h3 {
   text-align: center;
   letter-spacing: 0.01em;
 }
+h4 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0 4px 0 0;
+}
 h5 {
   font-size: 12px;
   font-weight: 600;
@@ -41,12 +47,23 @@ h5 {
   display: block;
   margin: auto;
 }
+.caption {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+}
 .donation-method {
-  margin: 0 180px;
+  margin: 60px 0 100px 0;
+}
+.donation-method img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 .donation-text p {
   line-height: 26px;
   text-align: center;
+  padding: 0 60px;
 }
 .tertiary-button {
   font-weight: 600;
@@ -55,4 +72,25 @@ h5 {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+  display: block;
+  margin: auto 0;
+}
+.animal-card-grid {
+  margin: 0 60px;
+}
+.animal-card-background {
+  height: 303px;
+  width: 200px;
+  background-color: white;
+  border-radius: 8px;
+  filter: drop-shadow(0px 4px 27px rgba(34, 51, 55, 0.25));
+}
+.animal-card-image {
+  padding: 16px;
+}
+.card-textgroup {
+  margin-left: 16px;
+}
+.animal-name {
+  margin-bottom: 4px;
 }

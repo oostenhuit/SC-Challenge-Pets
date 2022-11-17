@@ -1,0 +1,58 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 57px;
+  font-weight: 500;
+  line-height: 69px;
+}
+h2 {
+  font-size: 39px;
+  font-weight: 500;
+  line-height: 47px;
+  text-align: center;
+}
+h3 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+h5 {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subheader p {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 30px;
+  text-align: center;
+  align-content: center;
+  letter-spacing: 0.06em;
+  max-width: 700px;
+  display: block;
+  margin: auto;
+}
+.donation-method {
+  margin: 0 180px;
+}
+.donation-text p {
+  line-height: 26px;
+  text-align: center;
+}
+.tertiary-button {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}

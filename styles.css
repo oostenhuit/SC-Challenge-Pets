@@ -8,6 +8,7 @@ h1 {
   font-size: 57px;
   font-weight: 500;
   line-height: 69px;
+  color: white;
 }
 h2 {
   font-size: 39px;
@@ -65,6 +66,27 @@ h5 {
   color: #efefef;
   text-decoration: none;
 }
+.hero-section {
+  background-image: url(/images/photos/cat.jpg);
+  background-size: cover;
+  height: 840px;
+}
+.hero-left {
+  margin: 130px 0 0 80px;
+}
+.round-button {
+  border-radius: 100px;
+  padding: 20px;
+  background: #6c919c;
+}
+
+.button-card {
+  background: rgba(244, 240, 240, 0.3);
+  box-shadow: 4px 8px 18px rgba(51, 36, 37, 0.3);
+  backdrop-filter: blur(6px);
+  border-radius: 25px;
+}
+
 .donation-method {
   margin: 60px 0 100px 0;
 }

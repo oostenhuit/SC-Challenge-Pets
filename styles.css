@@ -81,17 +81,23 @@ h5 {
   color: white;
   margin: 0 16px;
 }
-.hero-section {
-  background-image: url(/images/photos/cat.jpg);
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/photos/background-image.png);
+  background-repeat: no-repeat;
   background-size: cover;
-  height: 840px;
+  color: white;
+  padding: 200px 0;
 }
 .hero-left {
   margin: 130px 0 0 80px;
 }
 .round-button {
-  border-radius: 100px;
-  padding: 20px;
+  border-radius: 70%;
+  border: none;
+  padding: 15px;
+  height: 90px;
+  width: 90px;
   background: #6c919c;
 }
 
@@ -100,6 +106,7 @@ h5 {
   box-shadow: 4px 8px 18px rgba(51, 36, 37, 0.3);
   backdrop-filter: blur(6px);
   border-radius: 25px;
+  max-width: 430px;
 }
 
 .donation-method {

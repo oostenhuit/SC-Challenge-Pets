@@ -82,11 +82,11 @@ h5 {
   margin: 0 16px;
 }
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/images/photos/background-image.png);
+  background-image: url(/images/photos/cat.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  text-align: center;
   padding: 200px 0;
 }
 .hero-left {
